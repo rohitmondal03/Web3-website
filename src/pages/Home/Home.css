@@ -7,12 +7,8 @@
     color: white;
 }
 
-.home_left_btn {
-
-}
-
 .home_left_btn button {
-    border: 2px solid rgb(245 158 11);
+    border: 2px solid rgb(253, 190, 82);
 }
 
 .coin_img {
@@ -28,4 +24,12 @@
 
 .home_abt_right_head {
     line-height: 3.5rem;
+}
+
+.back_text {
+    font-size: 15rem;
+}
+
+.lock_img {
+    filter: drop-shadow(20px 30px 30px black);
 }

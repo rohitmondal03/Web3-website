@@ -1,8 +1,4 @@
 .navbar_right button {
     border: 2px solid rgb(205, 192, 9);
-    transition: .5s all linear;
-}
-
-.navbar_right button:hover {
-    text-decoration: underline;
+    transition: .1s all linear;
 }
