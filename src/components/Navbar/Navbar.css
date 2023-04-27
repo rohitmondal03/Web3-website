@@ -2,3 +2,46 @@
     border: 2px solid rgb(205, 192, 9);
     transition: .1s all linear;
 }
+
+.menu_icon path {
+    display: none;
+}
+
+.small_menu_lists {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    z-index: 1;
+    transition: .2s ease;
+}
+
+.small_menu_lists_show {
+    transition: .2s ease;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1025px) {
+
+    .menu_icon path {
+        display: block;
+        /* height: 1000px; */
+    }
+
+    .nav_links, .navbar_right button  {
+        display: none;
+    }
+
+    
+}
+
