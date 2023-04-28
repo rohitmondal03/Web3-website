@@ -14,13 +14,13 @@ const Footer = () => {
       </form>
 
       <div className='footer_links px-56 mt-20'>
-        <ul className='text-white text-xl flex flex-row items-center justify-between'>
-          <li><Link to='/' className='hover:text-yellow-200 transition-all'>X Coin</Link></li>
-          <li><Link to='/' className='hover:text-yellow-200 transition-all'>How it works</Link></li>
-          <li><Link to='/' className='hover:text-yellow-200 transition-all'>How to use</Link></li>
-          <li><Link to='/' className='hover:text-yellow-200 transition-all'>Blog</Link></li>
-          <li><Link to='/' className='hover:text-yellow-200 transition-all'>About us</Link></li>
-          <li><Link to='/' className='hover:text-yellow-200 transition-all'>Contact</Link></li>
+        <ul className='text-white font-semibold text-xl flex flex-row items-center justify-between'>
+          <li><Link to='/' className='mx-2 hover:text-yellow-200 transition-all'>X Coin</Link></li>
+          <li><Link to='/how-it-works' className='mx-2 hover:text-yellow-200 transition-all'>How it works</Link></li>
+          <li><Link to='/how-to-use' className='mx-2 hover:text-yellow-200 transition-all'>How to use</Link></li>
+          <li><Link to='/about-us' className='mx-2 hover:text-yellow-200 transition-all'>About us</Link></li>
+          <li><Link to='/contact' className='mx-2 hover:text-yellow-200 transition-all'>Contact</Link></li>
+          <li><Link to='/join-us' className='mx-2 hover:text-yellow-200 transition-all'>Join Us</Link></li>
         </ul>
       </div>
 

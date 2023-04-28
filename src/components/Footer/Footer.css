@@ -1,3 +1,22 @@
 footer {
     background-color: rgb(13, 71, 83);
 }
+
+
+
+@media only screen and (max-width: 1300px) {
+
+    .footer_links ul {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .footer_links ul li {
+        margin-bottom: 20px;
+    }
+
+    .footer_links ul li:last-child {
+        margin-bottom: 0px;
+    }
+
+} 

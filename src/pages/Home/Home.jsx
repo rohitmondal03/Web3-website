@@ -10,7 +10,7 @@ import tesla_img from "../../assets/tesla.png"
 import microsoft_img from "../../assets/microsoft.png"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from "../../components/Footer/Footer"
-import Locker from './LockerSec/Locker'
+import Locker from '../../components/LockerSec/Locker'
 
 const Home = () => {
   return (
@@ -104,8 +104,8 @@ const Home = () => {
       {/* LOCKER SECTION */}
 
       <Locker />
-      
-      
+
+
 
       {/* LAST SECTION */}
 

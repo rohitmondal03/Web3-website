@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import  "./Locker.css"
-import lock_img from "../../../assets/locker.png"
+import lock_img from "../../assets/locker.png"
 
 const Locker = () => {
     return (
