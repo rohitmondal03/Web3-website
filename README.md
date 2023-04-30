@@ -35,4 +35,4 @@ https://github.com/rohitmondal03/Web3-website
 
 
 CURRENTLY WORKING ON 
-`how it works` section
+`working on `how-to-use` section 

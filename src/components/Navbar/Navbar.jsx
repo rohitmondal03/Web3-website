@@ -55,7 +55,7 @@ const Navbar = () => {
                                 <div className='small_menu_lists'>
                                     <ul className='p-24 flex flex-col items-center font-serif text-black border-8 border-white'>
                                         <li className='my-5 text-3xl' onClick={() => { navigate('/') }}>
-                                            <h1 className='text-6xl font-sans mb-10'>
+                                            <h1 className='text-8xl font-sans mb-10 font-semibold'>
                                                 X Coin
                                             </h1>
                                         </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                         <li className='my-5 text-3xl' onClick={() => navigate('/join-us')}>
                                             Join Us
                                         </li>
-                                        <li className='my-5 text-3xl'>
+                                        <li className='back_btn text-3xl'>
                                             <MdArrowRightAlt
                                                 fontSize='60px'
                                                 color='warning'

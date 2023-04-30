@@ -2,8 +2,8 @@ import React from 'react'
 import Data from "./DivData"
 import Template from "./DivTemp";
 import Navbar from '../../components/Navbar/Navbar';
-import "./Works.css"
 import Footer from '../../components/Footer/Footer';
+import "./Works.css"
 
 const Works = () => {
     return (
@@ -17,10 +17,12 @@ const Works = () => {
                     para= {data.abt_para}
                     img= {data.img}
                     btn_text= {data.btn_text}
+                    alt_text= {data.alt_text}
+                    redirect_to= {data.link_redirect}
                 />
             ))}
 
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

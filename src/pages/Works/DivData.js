@@ -16,7 +16,11 @@ const Data= [
 
         img: mag_img,
 
-        btn_text: "Learn More"
+        alt_text: "mag-glass",
+
+        btn_text: "Learn More",
+
+        link_redirect: "/how-to-use"
     },
 
     {
@@ -27,6 +31,8 @@ const Data= [
         abt_para: "X coin is the next currency of the internet. X Coin's blockchain is a decentralized open-source,public good that anyone can rely on. It's low-cost, fast, accessible anywhere in the world, and available to anyone. It's place for  Web3 applications to run in full decentralization.",
         
         img: lock_img,
+
+        alt_text: "locker-img",
 
         btn_text: "Get started with X Coin"
     },
@@ -40,6 +46,8 @@ const Data= [
 
         img: prot_img,
 
+        alt_text: "protection-img",
+
         btn_text: "Learn More"
     },
 
@@ -52,7 +60,9 @@ const Data= [
 
         img: coins_img,
 
-        btn_text: "Read our whitepaper"
+        alt_text: "coin-img",
+
+        btn_text: "Read our whitepaper",
     }
 ]
 
