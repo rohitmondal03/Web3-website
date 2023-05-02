@@ -33,6 +33,8 @@ Your app is ready to be deployed!
 https://github.com/rohitmondal03/Web3-website
 
 
+Committing `Day 6`
+
 
 CURRENTLY WORKING ON 
-`working on `how-to-use` section 
+`about us` how-to-use section 

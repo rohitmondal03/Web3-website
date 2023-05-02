@@ -30,7 +30,7 @@ const Navbar = () => {
                             <Link to='/how-to-use' className='nav_links transition-all hover:text-yellow-100'>How to use</Link>
                         </li>
                         <li className='mx-3 nav_links'>
-                            <Link to='about-us/' className='nav_links transition-all hover:text-yellow-100'>About us</Link>
+                            <Link to='/about-us' className='nav_links transition-all hover:text-yellow-100'>About us</Link>
                         </li>
                         <li className='mx-3 nav_links'>
                             <Link to='/contact' className='nav_links transition-all hover:text-yellow-100'>Contact</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                 <div className='navbar_right text-white flex flex-row items-center'>
 
-                    <button className='py-3 px-5 font-bold rounded-xl text-yellow-400 text-lg hover:text-yellow-600' onClick={() => { navigate('/join-us') }}>Join Us</button>
+                    <button className='py-3 px-5 font-bold rounded-xl text-yellow-400 text-lg hover:text-yellow-600' onClick={() => { navigate('/about-us') }}>Join Us</button>
 
                     <div className='mx-3'>
                         <MenuIcon
