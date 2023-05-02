@@ -16,7 +16,7 @@ const About = () => {
 
         {/* FIRST SECTION STARTS */}
 
-        <div className='about_sec_first_part text-white flex flex-col items-center text-center py-20'>
+        <div className='about_sec_first_part flex flex-col items-center text-center text-zinc-200 py-20'>
 
           <div className='about_sec_first_part_text'>
             <h1 className='text-6xl my-5 font-bold'>Welcome to the X Coin World</h1>
@@ -76,13 +76,39 @@ const About = () => {
             <p className='text-lg'>Our goal is to fix the flaws of traditional currencies by leveraging Web3 and cryptocurrency.</p>
           </div>
 
-          <div className='about_sec_second_part_below_part mt-44'>
+          <div className='about_sec_second_part_below_part mt-44 px-20'>
+
             <h1 className='text-6xl font-bold'>Open positions</h1>
+
+            <div className='opening-section mt-28 flex flex-row justify-evenly text-lg text-zinc-700 font-semibold'>
+              <button className='uppercase rounded-2xl bg-white px-7 py-3 hover:bg-zinc-100 transition'><i className="fa-solid fa-clipboard mr-2" />All</button>
+              <button className='uppercase rounded-2xl bg-white px-7 py-3 hover:bg-zinc-100 transition'><i className="fa-solid fa-laptop mr-2" />Engineering</button>
+              <button className='uppercase rounded-2xl bg-white px-7 py-3 hover:bg-zinc-100 transition'><i className="fa-solid fa-pen-nib mr-2" />Design</button>
+              <button className='uppercase rounded-2xl bg-white px-7 py-3 hover:bg-zinc-100 transition'><i className="fa-solid fa-circle-info mr-2" />Foundation</button>
+              <button className='uppercase rounded-2xl bg-white px-7 py-3 hover:bg-zinc-100 transition'><i className="fa-solid fa-truck-fast mr-2" />Commercial</button>
+            </div>
+
           </div>
 
         </div>
 
         {/* THIRD SECTION ENDS */}
+
+
+
+
+        {/* FOURTH SECTION STARTS */}
+
+        <div className='about_sec_fourth_part text-center text-zinc-200 py-48 px-20 flex flex-col items-center'>
+
+          <h1 className='text-6xl font-bold mb-12'>Team</h1>
+          <p className='text-lg w-1/2'>Our goal is to create a borderless and banking-free economy, which facilitates the frictionless use of our multi-currency wallet peformance.</p>
+
+          <div className='team_members'>
+            
+          </div>
+
+        </div>
 
 
       </div>
