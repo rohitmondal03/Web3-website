@@ -24,23 +24,23 @@ const Navbar = () => {
                             <img onClick={() => { navigate('/') }} className='h-16 cursor-pointer' src='../../assets/favicon.png' alt='website_logo' />
                         </li>
                         <li className='mx-3 nav_links'>
-                            <Link to='/how-it-works' className='nav_links transition-all hover:text-yellow-100'>How it works</Link>
+                            <Link to='/how-it-works' className='nav_links transition-all hover:text-yellow-400 hover:text-2xl'>How it works</Link>
                         </li>
                         <li className='mx-3 nav_links'>
-                            <Link to='/how-to-use' className='nav_links transition-all hover:text-yellow-100'>How to use</Link>
+                            <Link to='/how-to-use' className='nav_links transition-all hover:text-yellow-400 hover:text-2xl'>How to use</Link>
                         </li>
                         <li className='mx-3 nav_links'>
-                            <Link to='/about-us' className='nav_links transition-all hover:text-yellow-100'>About us</Link>
+                            <Link to='/about-us' className='nav_links transition-all hover:text-yellow-400 hover:text-2xl'>About us</Link>
                         </li>
                         <li className='mx-3 nav_links'>
-                            <Link to='/contact' className='nav_links transition-all hover:text-yellow-100'>Contact</Link>
+                            <Link to='/contact' className='nav_links transition-all hover:text-yellow-400 hover:text-2xl'>Contact</Link>
                         </li>
                     </ul>
                 </div>
 
                 <div className='navbar_right text-white flex flex-row items-center'>
 
-                    <button className='py-3 px-5 font-bold rounded-xl text-yellow-400 text-lg hover:text-yellow-600' onClick={() => { navigate('/about-us') }}>Join Us</button>
+                    <button className='py-3 px-5 font-bold rounded-xl text-yellow-400 text-lg hover:text-black hover:bg-yellow-500 transition duration-300' onClick={() => { navigate('/about-us') }}>Join Us</button>
 
                     <div className='mx-3'>
                         <MenuIcon

@@ -22,7 +22,7 @@ const Works = () => {
                 />
             ))}
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

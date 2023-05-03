@@ -33,7 +33,7 @@ Your app is ready to be deployed!
 https://github.com/rohitmondal03/Web3-website
 
 
-Committing `Day 7`
+Done till: commit `Day 7`
 
 
 CURRENTLY WORKING ON 
