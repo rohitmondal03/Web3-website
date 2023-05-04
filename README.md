@@ -38,3 +38,6 @@ Done till: commit `Day 7`
 
 CURRENTLY WORKING ON 
 `about us` how-to-use section 
+
+
+WORK ON `FOOTER` AND `HOME` SECTION FOR RESPONSIVENESS

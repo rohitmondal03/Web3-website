@@ -3,10 +3,79 @@
 }
 
 
-.about_sec_second_part_abt_culture_inner {
+.about_second_part_abt_culture_inner {
     border-right: 3px solid #000000;
 }
 
-.about_sec_second_part_abt_culture_inner:last-child {
+.about_second_part_abt_culture_inner:last-child {
     border: none;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 910px) {
+    .about_second_part_abt_culture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_second_part_abt_culture_inner {
+        border: none;
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+
+    .about_sec_first_part h1{
+        font-size: 3rem;
+    }
+
+    .about_sec_fourth_part_abt {
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 460px) {
+
+    .about_second_part {
+        padding: 7rem 0rem;
+    }
+    
+    .about_sec_third_part {
+        padding: 7rem 0rem;
+    }
+
+    .about_second_part_abt_culture_inner {
+        width: 90%;
+    }
+
+    .about_sec_third_part {
+        padding: 5rem .5rem;
+    }
+   
+    .about_sec_third_part_below_part  {
+        padding: 0rem 0rem;
+    }
+  
+    .about_sec_third_part_below_part h1 {
+        font-size: 3rem;
+    } 
+    
+    .about_sec_fourth_part {
+        padding: 7rem 0rem;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .about_sec_first_part_text h1 {
+        font-size: 2.2rem;
+    }
 }
