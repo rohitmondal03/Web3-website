@@ -8,12 +8,8 @@ const Navbar = () => {
 
     const [toggleHamburger, setToggleHamburger] = useState(false)
     const navigate = useNavigate();
-    // const navRef = useRef();
-
-    // const showNavbar = () => {
-    //     navRef.current.classList.toggle('.small_menu_lists_show')
-    // }
-
+    
+    
     return (
         <nav className="navbar navbar-expand-lg mx-20 py-10">
             <div className='navbar flex flex-row justify-between items-center'>
@@ -50,10 +46,10 @@ const Navbar = () => {
                         />
 
                         {toggleHamburger && (
-                            <div className='small_menu'>
+                            <div className='small_menu duration-150'>
 
                                 <div className='small_menu_lists'>
-                                    <ul className='p-24 flex flex-col items-center font-serif text-black border-8 border-white'>
+                                    <ul className='p-24 flex flex-col items-center font-serif text-black border-4 border-white'>
                                         <li className='my-5 text-3xl' onClick={() => { navigate('/') }}>
                                             <h1 className='text-8xl font-sans mb-10 font-semibold'>
                                                 X Coin
@@ -71,7 +67,7 @@ const Navbar = () => {
                                         <li className='my-5 text-3xl' onClick={() => navigate('/contact')}>
                                             Contact
                                         </li>
-                                        <li className='my-5 text-3xl' onClick={() => navigate('/join-us')}>
+                                        <li className='my-5 text-3xl' onClick={() => navigate('/about-us')}>
                                             Join Us
                                         </li>
                                         <li className='back_btn text-3xl'>

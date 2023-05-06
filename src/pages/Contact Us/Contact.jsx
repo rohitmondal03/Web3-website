@@ -12,30 +12,30 @@ const Contact = () => {
       <div className='contact_sec text-zinc-800 bg-zinc-400 py-40 flex flex-row items-center justify-around'>
 
         <div className='contact_sec_left'>
-          <h1 className='text-6xl font-bold mb-20'>Contact Us</h1>
+          <h1 className='text-6xl font-bold mb-12'>Contact Us</h1>
 
           <form action='' method='' className='flex flex-col items-start'>
 
             <label>
               <input
                 placeholder='Name'
-                className='my-5 px-5 py-3 rounded-lg w-96 focus:bg-zinc-100 focus:scale-105 transition' />
+                className='my-2 px-5 py-3 rounded-lg w-96 focus:bg-zinc-100 focus:scale-105 transition' />
             </label>
 
             <label>
               <input
                 placeholder='Email Address'
-                className='my-5 px-5 py-3 rounded-lg w-96 focus:bg-zinc-100 focus:scale-105 transition' />
+                className='my-2 px-5 py-3 rounded-lg w-96 focus:bg-zinc-100 focus:scale-105 transition' />
             </label>
 
             <label>
               <textarea
                 placeholder='Write your message'
-                className='my-5 px-5 py-3 rounded-lg w-96 focus:bg-zinc-100 focus:scale-105 transition'
+                className='my-2 px-5 py-3 rounded-lg w-96 focus:bg-zinc-100 focus:scale-105 transition'
               />
             </label>
 
-            <button className='font-bold text-lg px-5 py-4 my-5 bg-yellow-400 w-96 rounded-lg hover:bg-yellow-500 transition'>Send</button>
+            <button className='font-bold text-lg py-3 my-5  bg-yellow-400 w-96 rounded-lg hover:bg-yellow-500 transition'>Send</button>
 
           </form>
         </div>
@@ -63,7 +63,7 @@ const Contact = () => {
 
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </>
   )
