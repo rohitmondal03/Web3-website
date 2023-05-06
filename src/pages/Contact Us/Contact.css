@@ -26,10 +26,6 @@
         margin-bottom: 2rem;
     }
 
-    .contact_sec_left form label input, .contact_sec_left form label textarea {
-        /* width: 100%;  */
-    }
-
 }
 
 @media only screen and (max-width: 450px) {
