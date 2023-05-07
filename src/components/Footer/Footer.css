@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: rgb(13, 71, 83);
 }
 
@@ -20,3 +20,66 @@ footer {
     }
 
 } 
+
+
+
+@media only screen and (max-width: 915px) {
+    .footer {
+        padding: 3rem;
+        margin: 0;
+    }
+
+    .footer_links {
+        padding: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 710px) {
+    .footer h1 {
+        font-size: 2.5rem;
+    }
+
+    .footer form input {
+        width: 70%;
+    }
+
+    .footer_links {
+        margin-top: 4rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        padding: 2rem .5rem;
+    }
+
+    .footer h1 {
+        font-size: 2rem;
+    }
+
+    .footer form input {
+        width: 90%;
+    }
+}
+
+
+
+@media only screen and (max-width: 340px) {
+    .footer {
+        padding: 4rem 0;
+    }
+
+
+    .footer h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .footer_links {
+        margin-top: 2.5rem;
+    }
+}

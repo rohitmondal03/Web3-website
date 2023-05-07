@@ -3,6 +3,7 @@ import "./Use.css";
 import data from "./abtUseData";
 import Template from './AbtUseTemplate';
 import Navbar from "../../components/Navbar/Navbar"
+import Footer from '../../components/Footer/Footer';
 
 const Use = () => {
   return (
@@ -29,6 +30,9 @@ const Use = () => {
         </div>
 
       </div>
+
+
+      <Footer />
 
     </>
   )

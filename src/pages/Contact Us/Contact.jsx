@@ -3,6 +3,7 @@ import "./Contact.css";
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
+
 const Contact = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const Contact = () => {
               />
             </label>
 
-            <button className='font-bold text-lg py-3 my-5  bg-yellow-400 w-96 rounded-lg hover:bg-yellow-500 transition'>Send</button>
+            <button type='submit' className='font-bold text-lg py-3 my-5  bg-yellow-400 w-96 rounded-lg hover:bg-yellow-500 transition'>Send</button>
 
           </form>
         </div>
@@ -63,7 +64,7 @@ const Contact = () => {
 
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
 
     </>
   )

@@ -26,7 +26,7 @@ const About = () => {
             <h1 className='text-6xl my-5 font-bold'>Welcome to the X Coin World</h1>
             <p className='text-lg my-5'>We're building the Web3 payments, <br /> the future of money.</p>
 
-            <button className='border border-yellow-400 text-yellow-400 text-lg font-semibold rounded-2xl py-4 px-7 mt-5 hover:bg-yellow-500 hover:text-black transition duration-300'> <a href='#team_members'> Open positions </a> </button>
+            <button className='border border-yellow-400 text-yellow-400 text-lg font-semibold rounded-2xl py-4 px-7 mt-5 hover:bg-yellow-500 hover:text-black transition duration-300'> <a href='#open_pos'>Open positions </a> </button>
           </div>
 
           <div className='about_sec_first_part_img mt-16'>
@@ -84,7 +84,7 @@ const About = () => {
 
           <div className='about_sec_third_part_below_part mt-44 px-20'>
 
-            <h1 className='text-6xl font-bold'>Open positions</h1>
+            <h1 className='text-6xl font-bold' id='open_pos'>Open positions</h1>
 
             <div className='opening-section mt-28 flex flex-wrap flex-row justify-evenly text-lg text-zinc-700 font-semibold'>
               <button className='uppercase rounded-2xl bg-white px-7 py-3 mx-2 my-5 hover:bg-zinc-700 hover:text-white transition'><i className="fa-solid fa-clipboard mr-2" />All</button>
@@ -130,7 +130,7 @@ const About = () => {
         {/* FOURTH SECTION ENDS */}
 
 
-        {/* <Footer /> */}
+        <Footer />
 
 
       </div>

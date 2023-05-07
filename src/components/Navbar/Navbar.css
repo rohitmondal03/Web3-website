@@ -52,6 +52,18 @@
 
 }
 
+@media only screen and (max-width: 700px) {
+    .small_menu_lists ul {
+        padding: 2rem 1rem;
+    }
+
+    .small_menu_lists .back_btn svg {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+}
+
 
 @media only screen and (max-width: 520px) {
     .back_btn svg {

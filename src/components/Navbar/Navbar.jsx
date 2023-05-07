@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
 import { Link, useNavigate } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
@@ -66,9 +66,6 @@ const Navbar = () => {
                                         </li>
                                         <li className='my-5 text-3xl' onClick={() => navigate('/contact')}>
                                             Contact
-                                        </li>
-                                        <li className='my-5 text-3xl' onClick={() => navigate('/about-us')}>
-                                            Join Us
                                         </li>
                                         <li className='back_btn text-3xl'>
                                             <MdArrowRightAlt

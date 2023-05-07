@@ -9,7 +9,7 @@ const TeamSecTemplate = (props) => {
                 className='h-96 my-5 rounded-xl'
             />
             <h4 className='text-3xl font-thin text-white mb-1'>{props.name}</h4>
-            <h4 className='text-lg font-bold text-slate-200'>{props.desgn}</h4>
+            <h4 className='desgn text-lg font-bold text-slate-200'>{props.desgn}</h4>
         </div>
     )
 }

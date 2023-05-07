@@ -33,11 +33,8 @@ Your app is ready to be deployed!
 https://github.com/rohitmondal03/Web3-website
 
 
-Done till: commit `Day 9`
+Done till: commit `Day 10`
 
 
 CURRENTLY WORKING ON 
-`contact` section for responsiveness 
-
-
-WORK ON `FOOTER` AND `HOME` SECTION FOR RESPONSIVENESS
+`HOME` section for responsiveness and also add `FOOTER` to it.

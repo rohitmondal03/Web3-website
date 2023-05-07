@@ -2,6 +2,7 @@ import React from 'react'
 import "./App.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
+import ScrollToTopBtn from './components/ScrollToTopBtn'
 import Home from './pages/Home/Home'
 import About from './pages/About Us/About.jsx'
 import Contact from './pages/Contact Us/Contact.jsx'
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='how-it-works' element={<Works />} />
         <Route path='how-to-use' element={<Use />} />
       </Routes>
+      <ScrollToTopBtn />
     </BrowserRouter>
   )
 }

@@ -79,10 +79,43 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .team_sec_card {
+        margin: 1.5rem .5rem;
+    }
+}
+
 
 @media only screen and (max-width: 430px) {
     .about_sec_first_part_text h1 {
         font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .team_sec_card img {
+        /* margin: 1.5rem auto; */
+        height: 15rem;
+    }
+
+    .team_sec_card h4 {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        margin: 0 auto;
+    }
+
+    .team_sec_card .desgn {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .team_sec_card {
+        margin: 1rem .5rem;
+    }
+
+    .team_sec_card img {
+        margin-bottom: 0.5rem;
     }
 }
 
