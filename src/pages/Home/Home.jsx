@@ -8,9 +8,10 @@ import google_img from "../../assets/google_logo.png"
 import instagram_img from "../../assets/instagram.png"
 import tesla_img from "../../assets/tesla.png"
 import microsoft_img from "../../assets/microsoft.png"
+import lock_img from "../../assets/locker.png"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from "../../components/Footer/Footer"
-import Locker from '../../components/LockerSec/Locker'
+// import Locker from '../../components/LockerSec/Locker'
 
 const Home = () => {
   return (
@@ -21,10 +22,10 @@ const Home = () => {
 
       {/* MAIN HOME SECTION */}
 
-      <div className='py-10 px-32 flex justify-between items-center text-white'>
+      <div className='home_sec py-10 px-24 flex justify-between items-center text-white'>
 
         <div className='home_left'>
-          <h1 className='main_head font-bold mb-10'>X Coin: The next <br /> big Web3 digital <br /> currency</h1>
+          <h1 className='main_head font-bold mb-10'>X Coin: The next big Web3 digital currency</h1>
           <p className='text-lg'>X Coin is a Web3 cryptocurrency — the first decentralized, <br /> P2P digital currency with zero transaction fees and instant <br /> payments.</p>
           <div className='home_left_btn mt-10 flex font-semibold'>
             <button className='px-5 py-3 rounded-lg mr-3 bg-amber-300 text-black transition-all hover:bg-amber-400'><Link to='/about-us'>Get started with X coin</Link></button>
@@ -33,7 +34,10 @@ const Home = () => {
         </div>
 
         <div className='home_right'>
-          <img className='coin_img' src={coin_img} />
+          <img
+            className='coin_img' src={coin_img}
+            alt='coin-img'
+          />
         </div>
 
       </div>
@@ -41,7 +45,7 @@ const Home = () => {
 
       {/* VALUES SECTION INSIDE HOME SECTION */}
 
-      <div className='home_values text-white flex justify-evenly text-center mt-28 font-semibold mb-28'>
+      <div className='home_values text-white flex justify-evenly text-center my-28 font-semibold'>
 
         <div className='home_below_inner'>
           <h1 className='text-lg mb-3'>Treasure Balance</h1>
@@ -72,7 +76,11 @@ const Home = () => {
       <div className='home_abt bg-white py-16 px-16 flex justify-evenly items-center'>
 
         <div className='home_abt_left'>
-          <img className='coin_pile' src={coin_pile} />
+          <img
+            className='coin_pile'
+            src={coin_pile}
+            alt='coin-pile-img'
+          />
         </div>
 
         <div className='home_abt_right px-10 text-slate-600'>
@@ -87,7 +95,7 @@ const Home = () => {
 
       {/* SUSTAINABLE STAKE SECTION */}
 
-      <div className='text_spare p-60 text-center bg-slate-200 flex items-center justify-center font-bold'>
+      <div className='sust_sec text_spare p-60 text-center bg-slate-200 flex items-center justify-center font-bold'>
 
         <div className='back_text absolute left-2/4 -translate-x-1/2 opacity-10'>
           <h1>4,8</h1>
@@ -103,7 +111,24 @@ const Home = () => {
 
       {/* LOCKER SECTION */}
 
-      <Locker />
+
+      <div className='locker_section bg-white px-16 py-24 flex items-center justify-evenly' >
+
+        <div className='locker_sec_left text-center flex justify-center'>
+          <img
+            className='lock_img h-96'
+            src={lock_img}
+            alt='lock-img'
+          />
+        </div>
+
+        <div className='locker_sec_right text-left flex flex-col items-start justify-center text-slate-600'>
+          <h1 className='text-left text-5xl font-bold mb-6'>X Coin and the blockchain</h1>
+          <p className='text-lg'>X coin is the next currency of the internet. X Coin's <br /> blockchain is a decentralized open-source,public  <br />  good that anyone can rely on. It's low-cost, fast, <br /> accessible anywhere in the world, and available to <br /> anyone. It's place for  Web3 applications to run in full <br /> decentralization.</p>
+          <button className='px-5 py-3 rounded-lg mt-10 bg-amber-300 text-black transition-all hover:bg-amber-400 font-semibold'><Link to='/'>Get started with X Coin</Link></button>
+        </div>
+
+      </div>
 
 
 
@@ -116,17 +141,17 @@ const Home = () => {
         </div>
 
         <div className='last_sec_bottom flex flex-row'>
-          <img className='h-16 mx-12' src={tesla_img} />
-          <img className='h-16 mx-12' src={facebook_img} />
-          <img className='h-16 mx-12' src={google_img} />
-          <img className='h-16 mx-12' src={instagram_img} />
-          <img className='h-16 mx-12' src={microsoft_img} />
+          <img className='h-16 mx-12' src={tesla_img} alt='tesla-img' />
+          <img className='h-16 mx-12' src={facebook_img} alt='fb-img' />
+          <img className='h-16 mx-12' src={google_img} alt='google-img' />
+          <img className='h-16 mx-12' src={instagram_img} alt='insta-img' />
+          <img className='h-16 mx-12' src={microsoft_img} alt='microsoft-img' />
         </div>
 
       </div>
 
 
-      {/* <Footer /> */}
+      <Footer />
 
     </>
   )

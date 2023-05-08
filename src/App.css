@@ -11,6 +11,11 @@ a {
   cursor: pointer;
 }
 
+
+
+
+/* SCROLL BAR CSS */
+
 ::-webkit-scrollbar {
   width: 1rem;
 }

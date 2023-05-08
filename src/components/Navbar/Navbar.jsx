@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import "./Navbar.css"
 import { Link, useNavigate } from 'react-router-dom'
+import "./Navbar.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import { MdArrowRightAlt } from "react-icons/md"
 

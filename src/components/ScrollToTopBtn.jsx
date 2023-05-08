@@ -43,7 +43,7 @@ const ScrollToTopBtn = () => {
         <>
             {scrollToTop && (
                 <North
-                    className='bg-black'
+                    className='scroll_up_btn bg-black'
                     style={buttonStyle}
                     onClick={scrollUp}
                 />
