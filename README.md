@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
 
 In the project directory, you can run:
 
@@ -29,12 +29,13 @@ Your app is ready to be deployed!
 
 
 
-### `github link of project` 
+
+### `Github link of project` 
 https://github.com/rohitmondal03/Web3-website
 
 
+### `Project hosted on `Vercel` and link is mentioned below:`
+https://web3-website-rose.vercel.app/
+
+
 Done till: commit `Day 11`
-
-
-CURRENTLY WORKING ON 
-`HOME` section for responsiveness and also add `FOOTER` to it.
